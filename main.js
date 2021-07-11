@@ -48,7 +48,7 @@ fill(50,162,123);
 stroke(50,162,123);
 circle(leftx,lefty,20);
 numlefty=Number(lefty);
-nodecimalslefty=floor(lefty);
+nodecimalslefty=floor(numlefty);
 volume=nodecimalslefty/500;
 song.setVolume(volume);
 document.getElementById("volume").innerHTML="Volume= "+volume;
